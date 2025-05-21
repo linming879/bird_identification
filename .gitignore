@@ -1,0 +1,23 @@
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.npy
+*.npz
+
+# VS Code 相关
+.vscode/
+*.code-workspace
+
+# 训练过程中产生的模型文件
+*.pth
+*.h5
+
+# 结果输出 & 临时文件夹
+output_svm/
+result_eval/
+projekt_eff/experiments
+projekt_LSTM/experiments
+projekt_svm/experiments
+projekt_svm/pca
